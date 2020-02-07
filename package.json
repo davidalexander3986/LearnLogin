@@ -1,0 +1,24 @@
+{
+  "name": "LearnLogin",
+  "version": "0.0.1",
+  "author": "David Alexander",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IntroHCI/lab4"
+  },
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^3.21.2",
+    "express3-handlebars": "^0.5.2",
+    "mongodb": "*",
+    "mongoose": "*"
+  },
+  "engines": {
+    "node": "10.13.x",
+    "npm": "6.4.x"
+  }
+}
